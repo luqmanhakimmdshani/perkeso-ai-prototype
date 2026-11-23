@@ -1,0 +1,10 @@
+.env
+__pycache__/
+server*.log
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# Mirrored PERKESO site (~150 MB, regenerate with: python mirror.py && python mirror.py --kb)
+/site/
+eval/results/
